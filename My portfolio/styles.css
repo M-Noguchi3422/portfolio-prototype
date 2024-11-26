@@ -1,0 +1,96 @@
+ /* PC、スマホ共通スタイル */
+ * {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ヒーローセクション */
+#hero {
+  background: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#hero h2 {
+  margin: 0 0 10px;
+}
+
+/* ポートフォリオセクション */
+#portfolio {
+  padding: 20px;
+  background: #eaeaea;
+}
+
+.projects {
+  display: flex;
+  gap: 20px;
+}
+
+.project {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* スキルセクション */
+#skills {
+  padding: 20px;
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* コンタクトセクション */
+#contact {
+  padding: 20px;
+  text-align: center;
+}
+/* SNSはaタグにそれぞれのアイコンを設定したい */
+
+/* フッター */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+

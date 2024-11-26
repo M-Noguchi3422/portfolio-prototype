@@ -16,8 +16,8 @@ body {
 
 /* ヘッダー */
 header {
-  background: #333;
-  color: #fff;
+  background: #FFA6B1;
+  color: white;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -35,13 +35,13 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
 /* ヒーローセクション */
 #hero {
-  background: #f4f4f4;
+  background: white;
   padding: 50px 20px;
   text-align: center;
 }
@@ -53,7 +53,11 @@ header nav ul li a {
 /* ポートフォリオセクション */
 #portfolio {
   padding: 20px;
-  background: #eaeaea;
+  background: #ffc1cc6c;
+}
+
+h2 {
+  text-align: center;
 }
 
 .projects {
@@ -62,9 +66,9 @@ header nav ul li a {
 }
 
 .project {
-  background: #fff;
+  background: white;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid whitesmoke;
   border-radius: 5px;
 }
 
@@ -88,7 +92,7 @@ header nav ul li a {
 
 /* フッター */
 footer {
-  background: #333;
+  background: #FFA6B1;
   color: #fff;
   text-align: center;
   padding: 10px;

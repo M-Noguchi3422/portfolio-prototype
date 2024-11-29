@@ -1,7 +1,13 @@
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
-  .projects {
-    flex-direction: column;
+  .project {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .project {
+    width: calc(100% - 20px);
   }
 }
 
